@@ -1,0 +1,104 @@
+{
+    "raids": {
+        "naxx": {
+            "bosses": {
+                "Anub'Rekhan": {
+                    "intro_1": {
+
+                    },
+                    "intro_2": {
+
+                    },
+                    "tactics": {
+                        "normal": {
+                            "Damage_Dealers": {
+
+                            },
+                            "Healers": {
+
+                            },
+                            "Tanks": {
+
+                            }
+                        },
+                        "heroic": {
+    
+                        }
+                    }
+                },
+                "Grand_Widow_Faerlina": {
+
+                },
+                "Maexxna": {
+
+                },
+                "Noth_the_Plaguebringer": {
+
+                },
+                "Heigan_the_Unclean": {
+
+                },
+                "Loatheb": {
+
+                },
+                "Instructor_Razuvious": {
+
+                },
+                "Gothik_the_Harvester": {
+
+                },
+                "The_Four_Horseman": {
+
+                },
+                "Patchwerk": {
+
+                },
+                "Grobbulus": {
+
+                },
+                "Gluth": {
+
+                },
+                "Thaddius": {
+
+                },
+                "Sapphiron": {
+
+                },
+                "Kel'Thuzad": {
+
+                }
+            },
+            "extra": {
+
+            }
+        },
+        "os": {
+
+        },
+        "eoe": {
+
+        },
+        "voa": {
+
+        },
+        "ulduar": {
+
+        },
+        "toc": {
+
+        },
+        "ony": {
+
+        },
+        "icc": {
+
+        },
+        "rs": {
+
+        }
+    },
+    "dungeons": {
+
+    }
+}
