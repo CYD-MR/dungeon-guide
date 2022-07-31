@@ -1,0 +1,130 @@
+.raidWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #081018;
+    align-items: center;
+    justify-content: center;
+}
+
+#leftComponent {
+    display: flex;
+    width: 45.7%;
+    height: 500px;
+    border: 1px solid white;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#leftComponent::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+#rightComponent {
+    width: 53.8%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#rightComponent::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.bossDiv {
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px 10px 10px 50px;
+    padding-right: 10px;
+    width: 70%;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.bossImage {
+    border-radius: 50px;
+}
+
+#raidImageWrapper {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.raidImage {
+    width: 100%;
+    height: auto;
+}
+
+#raidTitle, #bossTitle {
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-bottom: 1px solid white;
+}
+
+#raidTitle {
+    justify-content: space-between;
+}
+
+#bossGuideWrapper {
+    display:  none;
+    flex-direction: column;
+    width: 90%;
+    color: white;
+}
+
+div.show {
+    display: block !important;
+}
+
+#overviewTitle {
+    border-bottom: 1px solid white;
+}
+
+#intro, #overview, #dps, #healers, #tanks {
+    margin: 10px 0 10px 0;
+}
+
+#dps, #healers, #tanks {
+    cursor: pointer;
+    padding: 4px 4px 6px 4px;
+    border: 1px solid white;
+}
+
+.chunkyDash {
+    font-size: 22px;
+}
+
+.roles {
+    padding: 8px 12px 4px 12px;
+    border-top: 1px solid white;
+    margin-top: 6px;
+}
+
+.rolesTextWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.roleSvg {
+    margin-top: 1px;
+    margin-right: 4px;
+}
+
+.raidTitlePadding {
+    width: 20px;
+}

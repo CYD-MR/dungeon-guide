@@ -1,8 +1,16 @@
+.raidsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #081018;
+  align-items: center;
+  justify-content: center;
+}
+
 .raidBlock {
   margin: 10px;
 }
 
-.raidTag {
+.raidLink {
   display: flex;
   align-items: center;
   justify-content: center;

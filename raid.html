@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="./raid-js.js"></script>
+        <link rel="stylesheet" href="raidStyles.css">
+    </head>
+    <body>
+        <div class="raidWrapper">
+            <div id='leftComponent'>
+                <div id="raidTitle">
+                    <a style="display: flex;" href="" rel="">
+                        <object data="./images/svg/backArrow.svg" width="22" height="16"></object>
+                    </a>
+                </div>
+            </div>
+            <div id="rightComponent">
+                <div id="bossTitle">Boss</div>
+                <div id="raidImageWrapper"></div>
+                <div id="bossGuideWrapper">
+                    <div id="intro"></div>
+                    <div id="overview">
+                        <div id="overviewTitle">Overview</div>
+                    </div>
+                    <div id="dps">
+                        <div class="rolesTextWrapper">
+                            <div>
+                                <span class="chunkyDash">- </span>
+                                DPS
+                            </div>
+                            <object class="roleSvg" data="./images/svg/swords.svg" width="20" height="20"></object>
+                        </div>
+                    </div>
+                    <div id="healers">
+                        <div class="rolesTextWrapper">
+                            <div>
+                                <span class="chunkyDash">- </span>
+                                Healers
+                            </div>
+                            <object class="roleSvg" data="./images/svg/cross.svg" width="22" height="22"></object>
+                        </div>
+                    </div>
+                    <div id="tanks">
+                        <div class="rolesTextWrapper">
+                            <div>
+                                <span class="chunkyDash">- </span>
+                                Tanks
+                            </div>
+                            <object class="roleSvg" data="./images/svg/shield.svg" width="20" height="20"></object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    addRaidImage()
+    buildBossList()
+</script>
