@@ -482,63 +482,52 @@ const data = {
         },
         "OS": {
             "Sartharion": {
-                "intro": "",
-                "overview": "",
+                "intro": "Sartharion is a black dragon boss located in the Obsidian Sanctum of the Chamber of Aspects. He is charged to watch over the twilight eggs in the sanctum. ",
+                "overview": "Each drake has their own abilities while also having a couple that they all share. All Drakes - Shadow Fissure - spawns a fissure under a random player's feet that explodes after 5 seconds dealing shadow damage (higher on 25 man). Shadow Breath - a frontal cone shadow breath dealing damage to all players in front of him. Vesperon - Twilight Torment - Every 30 seconds this boss will open a portal whilst simultaneously placing a shield on himself that deals shadow damage to attackers. In order to remove this shield players must kill the portal boss - the Acolyte of Vesperon. Acolyte of Vesperon - simple mob that deals minimal damage (although should be tanked) and increases fire and shadow damage taken whilst alive and reflects shadow damage. Shadron - Summon Acolyte - Similar to Vesperon, Shadron summons a portal and an acolyte the difference here however, is whilst this acolyte is alive Shadron deals increased fire damage and takes no damage. Acolyte of Shadron - deals low damage only to the highest threat target (should still be tanked). Tenebron -  Hatch Eggs - Every 30 seconds, Tenebron will spawn a portal and 6 eggs inside, after 20 seconds they will hatch into whelps, These will eventually come out of the portal if noone is in there. Sartharion - Cleave - Hits the primary target and up to 9 other targets around the primary target dealing physical damage. Flame Breath - deals fire damage to all targets in a frontal cone, deals increased damage on 25 man. Lava Wall - One of the key mechanics of this fight, walls will spawn in one of two layouts, left or right. Fire Adds - These are adds with high health pools but relatively low damage that spawn in groups of 2-4 throughout the fight, these should be picked up by the OT. If hit by the flame wall, they enrage doing 500% damage and increasing in size.",
+                "bossImage": "",
+                "drakesInfo": "Each Drake added to this fight maintains their own abilities and joins the fight at set intervals. Tenebron will join the fight at the 30 second marker, Increases shadow damage taken by all of the raid by 100% whilst Tenebron is still alive and upon death grants Sartharion a stack of Twilight Revenge increasing damage and attack speed by 25%. Tenebron will continue to spawn adds in the portal realm that will hatch and eventually join the fight. Shadron will join the fight at 75 seconds, increasing all fire damage taken by 100% until dead, and upon death granting Sartharion a stack of Twilight Revenge increasing damage and attack speed by 25%. Shadron will still retain his ability to put a shield on himself making him immune to damage and spawning a portal with his Acolyte in. Killing Shadron before this immunity is recommended. Vesperon is the final drake to join at 125 seconds into the fight, decreasing the raid's maximum health by 25% until defeated, and granting Sartharion a stack of Twilight Revenge increasing damage by 25% upon death. Vesperon retains the ability to spawn a portal and gain a damage-reflecting shield during the fight; this can either be burnt through or dealt with correctly by killing the Acolyte. Ideally Vesperon should die before the shield occurs. Important to note, if you get Sartharion down to 35% whilst a drake still lives, the boss enrages dealing 500% increased damage and 150% increased attack speed.",
                 "tactics": {
                     "normal": {
                         "dps": {
                             "melee": {
-                                "bulletOne": "",
-                                "bulletTwo": "",
-                                "bulletThree": ""
+                                "bulletOne": "Dps Sartharion and dodge the waves when they spawn.",
+                                "bulletTwo": "Cleave down the adds when they spawn, once the OT has picked them up.",
+                                "bulletThree": "1-3 drakes - Dps the boss between pull and Tenebron spawning however be careful not to do too much.",
+                                "bulletFour": "1-3 drakes - Dps Sartharion between drakes spawning but make sure to slow/stop dps when getting close to 45% as you do not want to hit 35% before you are ready!",
+                                "bulletFive": "3 drakes - Pop all CDs when Shadron joins the fight (75 seconds) as you need ot be able to kill the drake before he becomes immune.",
+                                "bulletSix": "3 drakes - If Vesperon spawns the portal, have a tanky dps and some pumpers go in and nuke the add down.",
+                                "bulletSeven": "Burn Sartharion down as fast as possible, before the tank dies.",
+                                "bulletEight": "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down and have either the OT or a range dps kite the first drake around until Sartharion is dead."
                             },
                             "range": {
-                                "bulletOne": "",
-                                "bulletTwo": "",
-                                "bulletThree": ""
+                                "bulletOne": "Dps Sartharion and dodge the waves when they spawn.",
+                                "bulletTwo": "Cleave down the adds when they spawn, once the OT has picked them up.",
+                                "bulletThree": "1-3 drakes - Dps the boss between pull and Tenebron spawning however be careful not to do too much.",
+                                "bulletFour": "1-3 drakes - Save bloodlust for Vesperon (or the last drake if not killing Vesp)  in an effort to burn the drake before the shield spawns.",
+                                "bulletFive": "1-3 drakes - Dps Sartharion between drakes spawning but make sure to slow/stop dps when getting close to 45% as you do not want to hit 35% before you are ready!",
+                                "bulletSix": "3 drakes - Pop all CDs when Shadron joins the fight (75 seconds) as you need to be able to kill the drake before he becomes immune.",
+                                "bulletSeven": "3 drakes - If Vesperon spawns the portal, have a tanky dps, some pumpers and a healer go in and nuke the add down.",
+                                "bulletEight": "Burn Sartharion down as fast as possible, before the tank dies.",
+                                "bulletNine": "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down and have either the OT or a range dps kite the first drake around until Sartharion is dead."
                             }
                         },
                         "healers": {
-                            "bulletOne": "",
-                            "bulletTwo": "",
-                            "bulletThree": "",
-                            "bulletFour": ""
+                            "bulletOne": "Most of the damage in this fight (0 drakes) will be on the tanks with a small amount of raid damage as long as the raid are able to dodge the lava waves.",
+                            "bulletTwo": "Position yourself with the range and dodge the lava waves when they spawn.",
+                            "bulletThree": "Assign the healing team to focus on different tanks / raid heal to cover all bases.",
+                            "bulletFour": "1-3 drakes - Depending on gear, having 1-2 healers focus the OT here will be necessary.",
+                            "bulletFive": "3 drakes - Managing your mana here is important, and learning when to pop each of your CDs is something you will need to figure out to deal with heavy damage.",
+                            "bulletSix": "3 drakes - If Vesperon spawns the portal; have a tanky dps, some pumpers and a healer go in and nuke the add down.",
+                            "bulletSeven": "3 drakes - When all 3 drakes are dead, the MT will be taking huge damage and you will need to be ready to pump!",
+                            "bulletEight": "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down. If doing this tactic, the healer team will need to coordinate on who to heal and be ready to go hard once the enrage hits."
                         },
                         "tanks": {
-                            "bulletOne": "",
-                            "bulletTwo": "",
-                            "bulletThree": "",
-                            "bulletFour": "",
-                            "bulletFive": "",
-                            "bulletSix": ""
-                        }
-                    },
-                    "drakes": {
-                        "dps": {
-                            "melee": {
-                                "bulletOne": "",
-                                "bulletTwo": "",
-                                "bulletThree": ""
-                            },
-                            "range": {
-                                "bulletOne": "",
-                                "bulletTwo": "",
-                                "bulletThree": ""
-                            }
-                        },
-                        "healers": {
-                            "bulletOne": "",
-                            "bulletTwo": "",
-                            "bulletThree": "",
-                            "bulletFour": ""
-                        },
-                        "tanks": {
-                            "bulletOne": "",
-                            "bulletTwo": "",
-                            "bulletThree": "",
-                            "bulletFour": "",
-                            "bulletFive": "",
-                            "bulletSix": ""
+                            "bulletOne": "The boss should be pulled to the X closest to the entrance side of the platform (shown in boss image), giving the tank time to avoid lava waves.",
+                            "bulletTwo": "0 drake - MT tanks the boss at the above mark and moves to avoid lava waves, while the OT picks up the adds when they spawn.",
+                            "bulletThree": "1-3 drake - OT will pick up each drake (joins the fight at 30/75/125 seconds respectively) as they join the fight, tanking them in the middle edge of the platform until killed.",
+                            "bulletFour": "1-3 drake - Avoid having any drakes alive by the time Sartharion gets to 35% health as itll enrage.",
+                            "bulletFive": "3 drakes - Once all the drakes are dead, Sartharion will be hitting like a truck (75% increased attack speed and physical damage)! Use any remaining CDs and healing items.",
+                            "bulletSix": "Zerg - Once your raid hits a certain amount of gear you can push through the fight fast enough without killing any drakes."
                         }
                     }
                 }
