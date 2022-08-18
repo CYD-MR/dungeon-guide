@@ -8,31 +8,31 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Start the fight cleaving the adds down with the boss, you want to position away from the tanks, but on the side of the boss with no ranged behind you.",
-                                    "bulletTwo": "The boss occasionally impales a random player and knocks them and all players behind them dealing moderate physical damage.",
-                                    "bulletThree": "Shortly (around 5-10 seconds) prior to locust swarm you want to move away from the boss to reduce the raid damage taken and not be silenced, wait in the middle of the room with the ranged until the boss has been repositioned."
-                                },
-                                "range": {
-                                    "bulletOne": "Start the fight spread around the middle of the room, you want to make sure the minimum amount of people are hit by impale as possible.",
-                                    "bulletTwo": "Focus the boss while cleaving the guards down on pull, you may have to clear scarabs up as they run around the room.",
-                                    "bulletThree": "When locust swarm occurs, stand in the middle of the room to avoid damage and silence."
-                                }
+                                "melee": [
+                                    "Start the fight cleaving the adds down with the boss, you want to position away from the tanks, but on the side of the boss with no ranged behind you.",
+                                    "The boss occasionally impales a random player and knocks them and all players behind them dealing moderate physical damage.",
+                                    "Shortly (around 5-10 seconds) prior to locust swarm you want to move away from the boss to reduce the raid damage taken and not be silenced, wait in the middle of the room with the ranged until the boss has been repositioned."
+                                ],
+                                "range": [
+                                    "Start the fight spread around the middle of the room, you want to make sure the minimum amount of people are hit by impale as possible.",
+                                    "Focus the boss while cleaving the guards down on pull, you may have to clear scarabs up as they run around the room.",
+                                    "When locust swarm occurs, stand in the middle of the room to avoid damage and silence."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "There is minimal damage aside from impales and poorly executed locust swarm phases.",
-                                "bulletTwo": "Spread out in a semi circle while keeping people topped after taking damage from impales as they will take additional fall damage.",
-                                "bulletThree": "During locust swarm, healers should be stood in the centre circle healing anyone who has stacks.",
-                                "bulletFour": "One healer will stay ahead of the tanks path to heal through stack damage - stay out of range of locust swarm!"
-                            },
-                            "tanks": {
-                                "bulletOne": "This can be solo tanked if the MT feels comfortable.",
-                                "bulletTwo": "MT tanks Anub'Rekhan in the doorway he stands in, ideally facing one of the corners, allowing melee to be stood in the other corner.",
-                                "bulletThree": "OT picks up the guards and tanks them near the boss to allow for cleave.",
-                                "bulletFour": "When locust swarm is around 5 seconds away, prepare to move the boss to the outer edge of the room.",
-                                "bulletFive": "Keeping the boss on the outer edge will stop any player in the middle of the room from taking stacks.",
-                                "bulletSix": "As you arrive at the opposite doorway the boss should just be finishing his cast and you can reposition the boss as you did at the start of the fight."
-                            }
+                            "healers": [
+                                "There is minimal damage aside from impales and poorly executed locust swarm phases.",
+                                "Spread out in a semi circle while keeping people topped after taking damage from impales as they will take additional fall damage.",
+                                "During locust swarm, healers should be stood in the centre circle healing anyone who has stacks.",
+                                "One healer will stay ahead of the tanks path to heal through stack damage - stay out of range of locust swarm!"
+                            ],
+                            "tanks": [
+                                "This can be solo tanked if the MT feels comfortable.",
+                                "MT tanks Anub'Rekhan in the doorway he stands in, ideally facing one of the corners, allowing melee to be stood in the other corner.",
+                                "OT picks up the guards and tanks them near the boss to allow for cleave.",
+                                "When locust swarm is around 5 seconds away, prepare to move the boss to the outer edge of the room.",
+                                "Keeping the boss on the outer edge will stop any player in the middle of the room from taking stacks.",
+                                "As you arrive at the opposite doorway the boss should just be finishing his cast and you can reposition the boss as you did at the start of the fight."
+                            ]
                         }
                     }
                 },
@@ -42,29 +42,29 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Focus boss, be careful if you are the closest to the boss as you can be hit with poison bolt volleys.",
-                                    "bulletTwo": "Avoid Rain of Fires to reduce raid damage.",
-                                    "bulletThree": "If tanks grip an add on 10 man, focus it to dispel frenzy, on 25 ignore adds entirely."
-                                },
-                                "range": {
-                                    "bulletOne": "Focus burn the boss on 25 man, on 10 you may have to switch to the add to help dispel frenzy.",
-                                    "bulletTwo": "Avoid Rain of Fires to reduce raid damage."
-                                }
+                                "melee": [
+                                    "Focus boss, be careful if you are the closest to the boss as you can be hit with poison bolt volleys.",
+                                    "Avoid Rain of Fires to reduce raid damage.",
+                                    "If tanks grip an add on 10 man, focus it to dispel frenzy, on 25 ignore adds entirely."
+                                ],
+                                "range": [
+                                    "Focus burn the boss on 25 man, on 10 you may have to switch to the add to help dispel frenzy.",
+                                    "Avoid Rain of Fires to reduce raid damage."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "Poison Bolt Volley and Rain of fire will be most of the damage.",
-                                "bulletTwo": "Having nature / fire resist auras in the group and a cleansing totem or two will help.",
-                                "bulletThree": "During frenzy the tanks are prone to spike damage and may need external CDs."
-                            },
-                            "tanks": {
-                                "bulletOne": "MT - kite the boss out of rain of fires and expect to be hit with poison bolts.",
-                                "bulletTwo": "MT - Frenzy is the main focus of this fight and you may need to use CDs.",
-                                "bulletThree": "MT - On 25 man you will need to survive 2-3 seconds minimum of frenzy.",
-                                "bulletFour": "DKs (dps or tanks) can grip the add to the boss on 10 man for cleave.",
-                                "bulletFive": "OT - Tanks the worshipper adds.",
-                                "bulletSix": "Worshippers cast fireballs at the tank, while Followers charge and AoE Silence, for this reason a bear / warrior tank is best but not necessary."
-                            }
+                            "healers": [
+                                "Poison Bolt Volley and Rain of fire will be most of the damage.",
+                                "Having nature / fire resist auras in the group and a cleansing totem or two will help.",
+                                "During frenzy the tanks are prone to spike damage and may need external CDs."
+                            ],
+                            "tanks": [
+                                "MT - kite the boss out of rain of fires and expect to be hit with poison bolts.",
+                                "MT - Frenzy is the main focus of this fight and you may need to use CDs.",
+                                "MT - On 25 man you will need to survive 2-3 seconds minimum of frenzy.",
+                                "DKs (dps or tanks) can grip the add to the boss on 10 man for cleave.",
+                                "OT - Tanks the worshipper adds.",
+                                "Worshippers cast fireballs at the tank, while Followers charge and AoE Silence, for this reason a bear / warrior tank is best but not necessary."
+                            ]
                         }
                     }
                 },
@@ -74,29 +74,29 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Simple fight for melee, don't stand in front of the boss.",
-                                    "bulletTwo": "Kill boss and AoE little adds.",
-                                    "bulletThree": "Kill web wraps if assigned."
-                                },
-                                "range": {
-                                    "bulletOne": "Simple fight for ranged, don't stand in front of the boss.",
-                                    "bulletTwo": "Focus boss.",
-                                    "bulletThree": "Kill assigned web wraps."
-                                }
+                                "melee": [
+                                    "Simple fight for melee, don't stand in front of the boss.",
+                                    "Kill boss and AoE little adds.",
+                                    "Kill web wraps if assigned."
+                                ],
+                                "range": [
+                                    "Simple fight for ranged, don't stand in front of the boss.",
+                                    "Focus boss.",
+                                    "Kill assigned web wraps."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "Tanks can take significant damage on this fight and it is recommended to top them off before the web spray.",
-                                "bulletTwo": "DPS shouldn't take much damage outside of web wraps / sprays.",
-                                "bulletThree": "At 30% tanks can feel very squishy and external CDs should be coordinated.",
-                                "bulletFour": "Necrotic Poison is a dispellable poison and should be removed asap."
-                            },
-                            "tanks": {
-                                "bulletOne": "Tanks will position the boss early (facing the wall) and should have misdirection / tricks for that.",
-                                "bulletTwo": "Aim to have the boss positioned in a spot that allows range to require the least amount of movement for breaking web wraps.",
-                                "bulletThree": "MT or OT will pick up the small adds when they spawn to keep them in melee (they spawn directly under the boss).",
-                                "bulletFour": "During necrotic poison and the 30% enrage, tanks may need to use CDs as they will be particularly vulnerable."
-                            }
+                            "healers": [
+                                "Tanks can take significant damage on this fight and it is recommended to top them off before the web spray.",
+                                "DPS shouldn't take much damage outside of web wraps / sprays.",
+                                "At 30% tanks can feel very squishy and external CDs should be coordinated.",
+                                "Necrotic Poison is a dispellable poison and should be removed asap."
+                            ],
+                            "tanks": [
+                                "Tanks will position the boss early (facing the wall) and should have misdirection / tricks for that.",
+                                "Aim to have the boss positioned in a spot that allows range to require the least amount of movement for breaking web wraps.",
+                                "MT or OT will pick up the small adds when they spawn to keep them in melee (they spawn directly under the boss).",
+                                "During necrotic poison and the 30% enrage, tanks may need to use CDs as they will be particularly vulnerable."
+                            ]
                         }
                     }
                 },
@@ -106,25 +106,25 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Nuke the boss.",
-                                    "bulletTwo": "Be careful for blink agro resets on 25 man and cleave adds down.",
-                                    "bulletThree": "In phase 2, continue to cleave adds down."
-                                },
-                                "range": {
-                                    "bulletOne": "Ranged will be stacked with healers in this fight.",
-                                    "bulletTwo": "Cleave adds and help to dispel curses (mages / boomies) if required."
-                                }
+                                "melee": [
+                                    "Nuke the boss.",
+                                    "Be careful for blink agro resets on 25 man and cleave adds down.",
+                                    "In phase 2, continue to cleave adds down."
+                                ],
+                                "range": [
+                                    "Ranged will be stacked with healers in this fight.",
+                                    "Cleave adds and help to dispel curses (mages / boomies) if required."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "This whole fight is about managing the curse.",
-                                "bulletTwo": "Be careful for any that may go off as raid healing will be required."
-                            },
-                            "tanks": {
-                                "bulletOne": "MT will tank boss near the middle of the room",
-                                "bulletTwo": "When adds spawn, pull them to the boss to allow for maximum cleave",
-                                "bulletThree": "Only real potential for wiping here is the curse management"
-                            }
+                            "healers": [
+                                "This whole fight is about managing the curse.",
+                                "Be careful for any that may go off as raid healing will be required."
+                            ],
+                            "tanks": [
+                                "MT will tank boss near the middle of the room",
+                                "When adds spawn, pull them to the boss to allow for maximum cleave",
+                                "Only real potential for wiping here is the curse management"
+                            ]
                         }
                     }
                 },
@@ -136,26 +136,26 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Melee will have the unfortunate job of having to try to perform all of their dps whilst dodging eruptions here.",
-                                    "bulletTwo": "If the disease is active an eruption misstep can be an instant death.",
-                                    "bulletThree": "Being overly safe in your positioning is ideal to avoid being clipped by the areas surrounding."
-                                },
-                                "range": {
-                                    "bulletOne": "Ranged treats the boss as a target dummy in phase 1, standing on the platform.",
-                                    "bulletTwo": "Phase 2 you move off the platform asap as Heigan does a heavy AoE Aura to anyone on the platform, and join the group in area 1.",
-                                    "bulletThree": "As soon as phase 2 (fast dance) ends you can return to the platform."
-                                }
+                                "melee": [
+                                    "Melee will have the unfortunate job of having to try to perform all of their dps whilst dodging eruptions here.",
+                                    "If the disease is active an eruption misstep can be an instant death.",
+                                    "Being overly safe in your positioning is ideal to avoid being clipped by the areas surrounding."
+                                ],
+                                "range": [
+                                    "Ranged treats the boss as a target dummy in phase 1, standing on the platform.",
+                                    "Phase 2 you move off the platform asap as Heigan does a heavy AoE Aura to anyone on the platform, and join the group in area 1.",
+                                    "As soon as phase 2 (fast dance) ends you can return to the platform."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "Phase 1 you stand on the platform and enjoy safety.",
-                                "bulletTwo": "Disease cleansing totems are very useful for this fight, especially on progression.",
-                                "bulletThree": "Phase 2 is intense for healers and really allows resto druids to shine, with  the consistent movement causing issues with longer cast times."
-                            },
-                            "tanks": {
-                                "bulletOne": "This whole fight revolves around the tanks, with good positioning of the boss allowing for your melee to maintain a 20 yard distance from the healers and ranged to stop them getting the casting debuff.",
-                                "bulletTwo": "This is a fight of experience, and when you have an idea of the areas, you will be able to position the boss in the most optimal way."
-                            }
+                            "healers": [
+                                "Phase 1 you stand on the platform and enjoy safety.",
+                                "Disease cleansing totems are very useful for this fight, especially on progression.",
+                                "Phase 2 is intense for healers and really allows resto druids to shine, with  the consistent movement causing issues with longer cast times."
+                            ],
+                            "tanks": [
+                                "This whole fight revolves around the tanks, with good positioning of the boss allowing for your melee to maintain a 20 yard distance from the healers and ranged to stop them getting the casting debuff.",
+                                "This is a fight of experience, and when you have an idea of the areas, you will be able to position the boss in the most optimal way."
+                            ]
                         }
                     }
                 },
@@ -165,29 +165,29 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Kill the spores in the assigned order and hard nuke the boss.",
-                                    "bulletTwo": "Use defensive cds if you have deathbloom on you to reduce damage taken.",
-                                    "bulletThree": "Healers will appreciate you doing whatever possible to reduce the amount of damage you are taking."
-                                },
-                                "range": {
-                                    "bulletOne": "Kill the spores in the assigned order and hard nuke the boss.",
-                                    "bulletTwo": "Use defensive cds if you have deathbloom on you to reduce damage taken.",
-                                    "bulletThree": "Healers will appreciate you doing whatever possible to reduce the amount of damage you are taking.",
-                                    "bulletFour": "Can stack in melee or apart depending on how spores are handled."
-                                }
+                                "melee": [
+                                    "Kill the spores in the assigned order and hard nuke the boss.",
+                                    "Use defensive cds if you have deathbloom on you to reduce damage taken.",
+                                    "Healers will appreciate you doing whatever possible to reduce the amount of damage you are taking."
+                                ],
+                                "range": [
+                                    "Kill the spores in the assigned order and hard nuke the boss.",
+                                    "Use defensive cds if you have deathbloom on you to reduce damage taken.",
+                                    "Healers will appreciate you doing whatever possible to reduce the amount of damage you are taking.",
+                                    "Can stack in melee or apart depending on how spores are handled."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "This is THE healer fight! Necrotic Aura (preventing healing) will be on the boss for most of the fight with small 3 second windows inbetween which is the only time you will be able to heal",
-                                "bulletTwo": "Can stack in melee or apart depending on how spores are handled.",
-                                "bulletThree": "You can also gain the buff from the spores and should be dpsing during the times where you are unable to heal!",
-                                "bulletFour": "Learn when to start precasting your heals, this allows you to land a big / AOE heal as soon as the debuff is gone and get another short or insta cast off before it is reapplied."
-                            },
-                            "tanks": {
-                                "bulletOne": "Loatheb hits extremely hard and rivals patchwerk in pure tank damage.",
-                                "bulletTwo": "Having multiple tanks is recommended and tank swapping as soon as defensives run out / tanks fall below 40% is advised.",
-                                "bulletThree": "Using defensive cooldowns on rotation is advised to reduce damage taken across the entirety of the fight."
-                            }
+                            "healers": [
+                                "This is THE healer fight! Necrotic Aura (preventing healing) will be on the boss for most of the fight with small 3 second windows inbetween which is the only time you will be able to heal",
+                                "Can stack in melee or apart depending on how spores are handled.",
+                                "You can also gain the buff from the spores and should be dpsing during the times where you are unable to heal!",
+                                "Learn when to start precasting your heals, this allows you to land a big / AOE heal as soon as the debuff is gone and get another short or insta cast off before it is reapplied."
+                            ],
+                            "tanks": [
+                                "Loatheb hits extremely hard and rivals patchwerk in pure tank damage.",
+                                "Having multiple tanks is recommended and tank swapping as soon as defensives run out / tanks fall below 40% is advised.",
+                                "Using defensive cooldowns on rotation is advised to reduce damage taken across the entirety of the fight."
+                            ]
                         }
                     }
                 },
@@ -197,26 +197,26 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Focus down instructor asap.",
-                                    "bulletTwo": "Use defensives if you have ‘Jagged Knife’ on you to assist healers."
-                                },
-                                "range": {
-                                    "bulletOne": "Focus down instructor asap.",
-                                    "bulletTwo": "Use defensives if you have ‘Jagged Knife’ on you to assist healers.",
-                                    "bulletThree": "Stacked with melee"
-                                }
+                                "melee": [
+                                    "Focus down instructor asap.",
+                                    "Use defensives if you have ‘Jagged Knife’ on you to assist healers."
+                                ],
+                                "range": [
+                                    "Focus down instructor asap.",
+                                    "Use defensives if you have ‘Jagged Knife’ on you to assist healers.",
+                                    "Stacked with melee"
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "Keep understudies alive.",
-                                "bulletTwo": "Heal through ‘Jagged Knife’ on raid members and the AOE damage from disrupting shout.",
-                                "bulletThree": "Shouldn't be particularly healing intensive but can get overwhelming if falling behind."
-                            },
-                            "tanks": {
-                                "bulletOne": "Tanks should tank the other 2 understudies (25man) slightly away from the raid.",
-                                "bulletTwo": "DPS the boss if not tanking an add.",
-                                "bulletThree": "A geared plate wearer will take around 30k damage from one hit from Instructor and Unbalancing Strike will likely wipe most tanks out."
-                            }
+                            "healers": [
+                                "Keep understudies alive.",
+                                "Heal through ‘Jagged Knife’ on raid members and the AOE damage from disrupting shout.",
+                                "Shouldn't be particularly healing intensive but can get overwhelming if falling behind."
+                            ],
+                            "tanks": [
+                                "Tanks should tank the other 2 understudies (25man) slightly away from the raid.",
+                                "DPS the boss if not tanking an add.",
+                                "A geared plate wearer will take around 30k damage from one hit from Instructor and Unbalancing Strike will likely wipe most tanks out."
+                            ]
                         }
                     }
                 },
@@ -226,29 +226,29 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Kill the adds during the spawn phase and then focus the boss.",
-                                    "bulletTwo": "The adds dont hit very hard so don't panic about threat.",
-                                    "bulletThree": "If doing the one side tactic be careful of the undead adds coming in as they en-masse cast arcane explosions and will kill people quickly."
-                                },
-                                "range": {
-                                    "bulletOne": "Kill the adds during the spawn phase and then focus the boss.",
-                                    "bulletTwo": "The adds dont hit very hard so don't panic about threat.",
-                                    "bulletThree": "If doing the one side tactic be careful of the undead adds coming in as they en-masse cast arcane explosions and will kill people quickly.",
-                                    "bulletFour": "If doing the one side tactic make sure to drop AOE on the door as it opens to nuke the adds."
-                                }
+                                "melee": [
+                                    "Kill the adds during the spawn phase and then focus the boss.",
+                                    "The adds dont hit very hard so don't panic about threat.",
+                                    "If doing the one side tactic be careful of the undead adds coming in as they en-masse cast arcane explosions and will kill people quickly."
+                                ],
+                                "range": [
+                                    "Kill the adds during the spawn phase and then focus the boss.",
+                                    "The adds dont hit very hard so don't panic about threat.",
+                                    "If doing the one side tactic be careful of the undead adds coming in as they en-masse cast arcane explosions and will kill people quickly.",
+                                    "If doing the one side tactic make sure to drop AOE on the door as it opens to nuke the adds."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "This fight has minimal damage during the add phase.",
-                                "bulletTwo": "If you are doing the one side tactic there will be spike damage when the door opens.",
-                                "bulletThree": "Watch out for later in phase 2 when tanks start getting multiple stacks of stat reduction."
-                            },
-                            "tanks": {
-                                "bulletOne": "Tanks will pick up adds throughout the fight, can be 1 tanked if stacking on one side (2 in 25 until geared enough).",
-                                "bulletTwo": "When the gates open tanks like paladins and DKs can pre-place AOE to grab threat.",
-                                "bulletThree": "High damage spike here until the adds have been dealt with.",
-                                "bulletFour": "Phase 2 - pick up the boss everytime he teleports."
-                            }
+                            "healers": [
+                                "This fight has minimal damage during the add phase.",
+                                "If you are doing the one side tactic there will be spike damage when the door opens.",
+                                "Watch out for later in phase 2 when tanks start getting multiple stacks of stat reduction."
+                            ],
+                            "tanks": [
+                                "Tanks will pick up adds throughout the fight, can be 1 tanked if stacking on one side (2 in 25 until geared enough).",
+                                "When the gates open tanks like paladins and DKs can pre-place AOE to grab threat.",
+                                "High damage spike here until the adds have been dealt with.",
+                                "Phase 2 - pick up the boss everytime he teleports."
+                            ]
                         }
                     }
                 },
@@ -258,28 +258,28 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Keep an eye on your stacks at all times, at 3 stacks begin to move away from the boss.",
-                                    "bulletTwo": "If doing the zerg strat killing both Baron and Thane on pull, pop everything.",
-                                    "bulletThree": "Avoid AOE on the ground and continue to swap bosses on 3-4 stacks."
-                                },
-                                "range": {
-                                    "bulletOne": "Keep an eye on your stacks at all times, at 3 stacks begin to move away from the boss.",
-                                    "bulletTwo": "If doing the zerg strat killing both Baron and Thane on pull, pop everything.",
-                                    "bulletThree": "Avoid AOE on the ground and continue to swap bosses on 3-4 stacks.",
-                                    "bulletFour": "Position yourself so that you can easily swap between bosses when stacks get too high"
-                                }
+                                "melee": [
+                                    "Keep an eye on your stacks at all times, at 3 stacks begin to move away from the boss.",
+                                    "If doing the zerg strat killing both Baron and Thane on pull, pop everything.",
+                                    "Avoid AOE on the ground and continue to swap bosses on 3-4 stacks."
+                                ],
+                                "range": [
+                                    "Keep an eye on your stacks at all times, at 3 stacks begin to move away from the boss.",
+                                    "If doing the zerg strat killing both Baron and Thane on pull, pop everything.",
+                                    "Avoid AOE on the ground and continue to swap bosses on 3-4 stacks.",
+                                    "Position yourself so that you can easily swap between bosses when stacks get too high"
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "If going for the Thane/Baron zerg, be prepared for high damage and pop any CDs you need to as it calms down after this point",
-                                "bulletTwo": "A healer or two will be assigned to heal the people tanking the other two bosses on the other side of the room. Position yourself properly to not be taking multiple stacks from both bosses.",
-                                "bulletThree": "Be prepared for people standing in void zones and not checking their stacks, leading to big spike damage."
-                            },
-                            "tanks": {
-                                "bulletOne": "If going for the Thane/Baron zerg, have your highest threat tank take them so that the DPS can go hard from the start.",
-                                "bulletTwo": "OT or any plate dps can tank the other two bosses in the back, one each.",
-                                "bulletThree": "Depending on tactics, its best to be ready to swap between bosses when your stacks get too high. Understanding when to swap places with your paired tank etc."
-                            }
+                            "healers": [
+                                "If going for the Thane/Baron zerg, be prepared for high damage and pop any CDs you need to as it calms down after this point",
+                                "A healer or two will be assigned to heal the people tanking the other two bosses on the other side of the room. Position yourself properly to not be taking multiple stacks from both bosses.",
+                                "Be prepared for people standing in void zones and not checking their stacks, leading to big spike damage."
+                            ],
+                            "tanks": [
+                                "If going for the Thane/Baron zerg, have your highest threat tank take them so that the DPS can go hard from the start.",
+                                "OT or any plate dps can tank the other two bosses in the back, one each.",
+                                "Depending on tactics, its best to be ready to swap between bosses when your stacks get too high. Understanding when to swap places with your paired tank etc."
+                            ]
                         }
                     }
                 },
@@ -289,28 +289,28 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Pump as hard as possible whilst dipping in and out of the slime to keep your health low.",
-                                    "bulletTwo": "Be mindful to watch your health and threat, a mistake with either could lead to taking a hateful strike to the face."
-                                },
-                                "range": {
-                                    "bulletOne": "Stand at range and nuke the boss.",
-                                    "bulletTwo": "Your only goal is to make sure you are pumping as hard as possible, while staying under the top 2 threat targets."
-                                }
+                                "melee": [
+                                    "Pump as hard as possible whilst dipping in and out of the slime to keep your health low.",
+                                    "Be mindful to watch your health and threat, a mistake with either could lead to taking a hateful strike to the face."
+                                ],
+                                "range": [
+                                    "Stand at range and nuke the boss.",
+                                    "Your only goal is to make sure you are pumping as hard as possible, while staying under the top 2 threat targets."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "You will need to be on point here, tanks and hateful strike targets will be taking high damage.",
-                                "bulletTwo": "DO NOT AOE HEAL HERE! Healing up melee around the tank will cause them to have to dip into slime more than required and slow dps.",
-                                "bulletThree": "Paladins should remove their holy light glyph here.",
-                                "bulletFour": "Expect a few deaths around the 5% mark, save externals for this point.",
-                                "bulletFive": "The key to this fight is mana preservation and not panic healing, you have a couple seconds between attacks."
-                            },
-                            "tanks": {
-                                "bulletOne": "On 10 man, have your best geared tank as MT and high health tank (druid ftw) as OT.",
-                                "bulletTwo": "On 25 man, have your best geared tank as MT,  high health tank (druid ftw) as OT and a tank dedicated to stick at 2nd highest threat, a DK is very good for this.",
-                                "bulletThree": "Use mitigation and cooldowns as needed, but similarly to the healers, do not panic.",
-                                "bulletFour": "Make sure all tanks understand when to use each of their CDs."
-                            }
+                            "healers": [
+                                "You will need to be on point here, tanks and hateful strike targets will be taking high damage.",
+                                "DO NOT AOE HEAL HERE! Healing up melee around the tank will cause them to have to dip into slime more than required and slow dps.",
+                                "Paladins should remove their holy light glyph here.",
+                                "Expect a few deaths around the 5% mark, save externals for this point.",
+                                "The key to this fight is mana preservation and not panic healing, you have a couple seconds between attacks."
+                            ],
+                            "tanks": [
+                                "On 10 man, have your best geared tank as MT and high health tank (druid ftw) as OT.",
+                                "On 25 man, have your best geared tank as MT,  high health tank (druid ftw) as OT and a tank dedicated to stick at 2nd highest threat, a DK is very good for this.",
+                                "Use mitigation and cooldowns as needed, but similarly to the healers, do not panic.",
+                                "Make sure all tanks understand when to use each of their CDs."
+                            ]
                         }
                     }
                 },
@@ -320,25 +320,25 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "The boss can target melee with mutating injections which requires you to run to the closest wall on the kite path.",
-                                    "bulletTwo": "Stand on the side of the boss to dps, behind has poison, in front has conal damage."
-                                },
-                                "range": {
-                                    "bulletOne": "Ranged stand in the middle of the room to allow the tank to kite around them.",
-                                    "bulletTwo": "If you get mutating injection, take it to a safe space behind the kite path and drop it and then return to the middle."
-                                }
+                                "melee": [
+                                    "The boss can target melee with mutating injections which requires you to run to the closest wall on the kite path.",
+                                    "Stand on the side of the boss to dps, behind has poison, in front has conal damage."
+                                ],
+                                "range": [
+                                    "Ranged stand in the middle of the room to allow the tank to kite around them.",
+                                    "If you get mutating injection, take it to a safe space behind the kite path and drop it and then return to the middle."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "The majority of damage in this fight comes from the mutating injections, plus some raid AOE damage.",
-                                "bulletTwo": "Only dispel mutating injections if you know it's safe to do so and again never use disease cleansing totem."
-                            },
-                            "tanks": {
-                                "bulletOne": "This fight can be solo tanked.",
-                                "bulletTwo": "If using 2 tanks then one can pick up the slimes.",
-                                "bulletThree": "The boss can be kited around the grates in the floor of Grobbulas’s boss room that give you a perfect kite path.",
-                                "bulletFour": "Remember the poison clouds only spawn every 15 seconds, so only move the boss when required."
-                            }
+                            "healers": [
+                                "The majority of damage in this fight comes from the mutating injections, plus some raid AOE damage.",
+                                "Only dispel mutating injections if you know it's safe to do so and again never use disease cleansing totem."
+                            ],
+                            "tanks": [
+                                "This fight can be solo tanked.",
+                                "If using 2 tanks then one can pick up the slimes.",
+                                "The boss can be kited around the grates in the floor of Grobbulas’s boss room that give you a perfect kite path.",
+                                "Remember the poison clouds only spawn every 15 seconds, so only move the boss when required."
+                            ]
                         }
                     }
                 },
@@ -348,26 +348,26 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Nuke the boss.",
-                                    "bulletTwo": "When decimate happens, go kill the zombies and then continue to nuke the boss."
-                                },
-                                "range": {
-                                    "bulletOne": "Nuke the boss.",
-                                    "bulletTwo": "When decimate happens, go kill the zombies and then continue to nuke the boss.",
-                                    "bulletThree": "If you are assigned to help with kiting the zombies, make sure to use your slows such as frost trap or earth bind totem"
-                                }
+                                "melee": [
+                                    "Nuke the boss.",
+                                    "When decimate happens, go kill the zombies and then continue to nuke the boss."
+                                ],
+                                "range": [
+                                    "Nuke the boss.",
+                                    "When decimate happens, go kill the zombies and then continue to nuke the boss.",
+                                    "If you are assigned to help with kiting the zombies, make sure to use your slows such as frost trap or earth bind totem"
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "Expect a fair amount of damage in this fight.",
-                                "bulletTwo": "Tanks will take reduced healing via mortal wounds.",
-                                "bulletThree": "The zombie kiter can get tagged while kiting and zombies may wander off and start attacking random players.",
-                                "bulletFour": "Decimate will do large raid damage and should be healed back up asap."
-                            },
-                            "tanks": {
-                                "bulletOne": "Tanks need to communicate properly for tank swapping - removing stacks of mortal wounds at around 4.",
-                                "bulletTwo": "Prot Paladins are exceptional options for zombie kiting also due to natural tankiness, consecrate and holy wrath however will need slows to assist."
-                            }
+                            "healers": [
+                                "Expect a fair amount of damage in this fight.",
+                                "Tanks will take reduced healing via mortal wounds.",
+                                "The zombie kiter can get tagged while kiting and zombies may wander off and start attacking random players.",
+                                "Decimate will do large raid damage and should be healed back up asap."
+                            ],
+                            "tanks": [
+                                "Tanks need to communicate properly for tank swapping - removing stacks of mortal wounds at around 4.",
+                                "Prot Paladins are exceptional options for zombie kiting also due to natural tankiness, consecrate and holy wrath however will need slows to assist."
+                            ]
                         }
                     }
                 },
@@ -377,32 +377,32 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Kill the add for the side you are assigned, then jumping down to the bosses platform.",
-                                    "bulletTwo": "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
-                                    "bulletThree": "Rotate around the boss if your charge changes, normally assigned by your raid lead again",
-                                    "bulletFour": "Nuke as hard as possible"
-                                },
-                                "range": {
-                                    "bulletOne": "Kill the add for the side you are assigned, then jumping down to the bosses platform.",
-                                    "bulletTwo": "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
-                                    "bulletThree": "Rotate around the boss if your charge changes, normally assigned by your raid lead again",
-                                    "bulletFour": "Nuke as hard as possible"
-                                }
+                                "melee": [
+                                    "Kill the add for the side you are assigned, then jumping down to the bosses platform.",
+                                    "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
+                                    "Rotate around the boss if your charge changes, normally assigned by your raid lead again",
+                                    "Nuke as hard as possible"
+                                ],
+                                "range": [
+                                    "Kill the add for the side you are assigned, then jumping down to the bosses platform.",
+                                    "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
+                                    "Rotate around the boss if your charge changes, normally assigned by your raid lead again",
+                                    "Nuke as hard as possible"
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "Heal your assigned side. The adds hit hard and have a passive AOE damage so will need to keep the raid members up on your side as well. Then jump down onto the bosses platform.",
-                                "bulletTwo": "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
-                                "bulletThree": "Rotate around the boss if your charge changes, normally assigned by your raid lead again",
-                                "bulletFour": "During the boss phase, the main damage will be on the tank. Chain lighting is easy rage damage to heal but if people mess up the charge mechanic itll likely cause a wipe."
-                            },
-                            "tanks": {
-                                "bulletOne": "Tank your assigned add until you are thrown over to the other platform and then continue to tank this add.",
-                                "bulletTwo": "Once dead, jump down to the main boss platform and the MT will pick up the boss where he stands.",
-                                "bulletThree": "OTs will then switch to dpsing.",
-                                "bulletFour": "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
-                                "bulletFive": "Rotate around the boss if your charge changes, normally assigned by your raid lead again"
-                            }
+                            "healers": [
+                                "Heal your assigned side. The adds hit hard and have a passive AOE damage so will need to keep the raid members up on your side as well. Then jump down onto the bosses platform.",
+                                "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
+                                "Rotate around the boss if your charge changes, normally assigned by your raid lead again",
+                                "During the boss phase, the main damage will be on the tank. Chain lighting is easy rage damage to heal but if people mess up the charge mechanic itll likely cause a wipe."
+                            ],
+                            "tanks": [
+                                "Tank your assigned add until you are thrown over to the other platform and then continue to tank this add.",
+                                "Once dead, jump down to the main boss platform and the MT will pick up the boss where he stands.",
+                                "OTs will then switch to dpsing.",
+                                "Stack on the correct side assigned by your raid lead, for the charge you receive each time",
+                                "Rotate around the boss if your charge changes, normally assigned by your raid lead again"
+                            ]
                         }
                     }
                 },
@@ -412,28 +412,28 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Melee should make sure to dps Sapphiron only from the side to avoid cleaves and tail swipes.",
-                                    "bulletTwo": "Move when blizzards are cast on you, the boss has a large hitbox so you can afford to spread out.",
-                                    "bulletThree": "During the air phase, move towards the range group in an effort to allow everyone to get behind you if you are chosen for ice bolts."
-                                },
-                                "range": {
-                                    "bulletOne": "Spread around the room and dps, avoiding blizzards.",
-                                    "bulletTwo": "Move into the middle when ice bolts are cast to allow everyone to get behind you if you are chosen.",
-                                    "bulletThree": "If you have a curse dispel it is expected you will assist in dispelling the raid of Life Drains as it considerably slows the kill down."
-                                }
+                                "melee": [
+                                    "Melee should make sure to dps Sapphiron only from the side to avoid cleaves and tail swipes.",
+                                    "Move when blizzards are cast on you, the boss has a large hitbox so you can afford to spread out.",
+                                    "During the air phase, move towards the range group in an effort to allow everyone to get behind you if you are chosen for ice bolts."
+                                ],
+                                "range": [
+                                    "Spread around the room and dps, avoiding blizzards.",
+                                    "Move into the middle when ice bolts are cast to allow everyone to get behind you if you are chosen.",
+                                    "If you have a curse dispel it is expected you will assist in dispelling the raid of Life Drains as it considerably slows the kill down."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "This is the true healer check of the raid, the AoE damage from Frost Aura is the main thing you will be dealing with.",
-                                "bulletTwo": "Spread around the room to be able to heal everyone.",
-                                "bulletThree": "Tank damage is minimal and aside from Life Drain curses there shouldn't be much else to worry about.",
-                                "bulletFour": "Consistent and efficient healing is the key here, with paladins using frost resist auras and CDs."
-                            },
-                            "tanks": {
-                                "bulletOne": "Start tanking the boss in the middle of the room and rotate it so the boss's side faces the door.",
-                                "bulletTwo": "When the boss flies up, get to your group for the air phase and return back to the same position when the boss has landed.",
-                                "bulletThree": "If you get a blizzard and need to move, try to do minimal movements so your dps dont get swiped across the room."
-                            }
+                            "healers": [
+                                "This is the true healer check of the raid, the AoE damage from Frost Aura is the main thing you will be dealing with.",
+                                "Spread around the room to be able to heal everyone.",
+                                "Tank damage is minimal and aside from Life Drain curses there shouldn't be much else to worry about.",
+                                "Consistent and efficient healing is the key here, with paladins using frost resist auras and CDs."
+                            ],
+                            "tanks": [
+                                "Start tanking the boss in the middle of the room and rotate it so the boss's side faces the door.",
+                                "When the boss flies up, get to your group for the air phase and return back to the same position when the boss has landed.",
+                                "If you get a blizzard and need to move, try to do minimal movements so your dps dont get swiped across the room."
+                            ]
                         }
                     }
                 },
@@ -443,35 +443,35 @@ const data = {
                     "tactics": {
                         "normal": {
                             "dps": {
-                                "melee": {
-                                    "bulletOne": "Kill the constructs, getting too close to the banshees or skeletons will likely cause unnecessary damage and issues.",
-                                    "bulletTwo": "In phase two, spread out as best as possible around the boss.",
-                                    "bulletThree": "If you have too many melee (including tanks) you want to organise groups that will stack up, the groups then will stay 10 yards away from each other.",
-                                    "bulletFour": "Fissures can spawn on melee and it is better to move out as a group than have multiple people moving on their own.",
-                                    "bulletFive": "On 25 man if someone is mind controlled, quickly CC them, preferably outside of melee so they don't get cleaved down."
-                                },
-                                "range": {
-                                    "bulletOne": "Killing Soul Weavers (banshees) are priority, Soldiers (skeletons) are second as the constructs should be being killed by melee.",
-                                    "bulletTwo": "Phase two means spreading throughout the room trying to never be within 10 yards of another person.",
-                                    "bulletThree": "Avoid Fissures, CC mind controls asap on 25 man and ignore the adds in phase 3."
-                                }
+                                "melee": [
+                                    "Kill the constructs, getting too close to the banshees or skeletons will likely cause unnecessary damage and issues.",
+                                    "In phase two, spread out as best as possible around the boss.",
+                                    "If you have too many melee (including tanks) you want to organise groups that will stack up, the groups then will stay 10 yards away from each other.",
+                                    "Fissures can spawn on melee and it is better to move out as a group than have multiple people moving on their own.",
+                                    "On 25 man if someone is mind controlled, quickly CC them, preferably outside of melee so they don't get cleaved down."
+                                ],
+                                "range": [
+                                    "Killing Soul Weavers (banshees) are priority, Soldiers (skeletons) are second as the constructs should be being killed by melee.",
+                                    "Phase two means spreading throughout the room trying to never be within 10 yards of another person.",
+                                    "Avoid Fissures, CC mind controls asap on 25 man and ignore the adds in phase 3."
+                                ]
                             },
-                            "healers": {
-                                "bulletOne": "Phase one will have minimal damage so help with dps/stuns where possible and heal tanks when constructs spawn",
-                                "bulletTwo": "Phase two switches to a healing intensive fight.",
-                                "bulletThree": "Spread throughout the room trying to never be within 10 yards of another person, avoiding fissures.",
-                                "bulletFour": "Maintain a high HPS to get through the constant damage of frostbolt volleys and the burst damage of frost blasts on people.",
-                                "bulletFive": "If you don't get a heal on someone in frost blast, they will die."
-                            },
-                            "tanks": {
-                                "bulletOne": "In phase one, pick up the constructs and stand with melee in the middle of the room.",
-                                "bulletTwo": "In phase two, the MT will grab the boss and move it to the centre of the room.",
-                                "bulletThree": "It is important that no players are within 10 yards of the MT, as the frost blast on the MT will likely cause a death.",
-                                "bulletFour": "A DK or bear is the best MT here due to the amount of spell damage that hits the tanks.",
-                                "bulletFive": "Fissures can spawn on tanks so you may need to move.",
-                                "bulletSix": "The OT will likely stay out of melee in phase two just to avoid having too many people stacked for frost blasts.",
-                                "bulletSeven": "In Phase three the OT will grab the adds that spawn and move them to a safe area of the room, saving CDs till for this as their damage will continuously increase."
-                            }
+                            "healers": [
+                                "Phase one will have minimal damage so help with dps/stuns where possible and heal tanks when constructs spawn",
+                                "Phase two switches to a healing intensive fight.",
+                                "Spread throughout the room trying to never be within 10 yards of another person, avoiding fissures.",
+                                "Maintain a high HPS to get through the constant damage of frostbolt volleys and the burst damage of frost blasts on people.",
+                                "If you don't get a heal on someone in frost blast, they will die."
+                            ],
+                            "tanks": [
+                                "In phase one, pick up the constructs and stand with melee in the middle of the room.",
+                                "In phase two, the MT will grab the boss and move it to the centre of the room.",
+                                "It is important that no players are within 10 yards of the MT, as the frost blast on the MT will likely cause a death.",
+                                "A DK or bear is the best MT here due to the amount of spell damage that hits the tanks.",
+                                "Fissures can spawn on tanks so you may need to move.",
+                                "The OT will likely stay out of melee in phase two just to avoid having too many people stacked for frost blasts.",
+                                "In Phase three the OT will grab the adds that spawn and move them to a safe area of the room, saving CDs till for this as their damage will continuously increase."
+                            ]
                         }
                     }
                 }
@@ -489,46 +489,46 @@ const data = {
                 "tactics": {
                     "normal": {
                         "dps": {
-                            "melee": {
-                                "bulletOne": "Dps Sartharion and dodge the waves when they spawn.",
-                                "bulletTwo": "Cleave down the adds when they spawn, once the OT has picked them up.",
-                                "bulletThree": "1-3 drakes - Dps the boss between pull and Tenebron spawning however be careful not to do too much.",
-                                "bulletFour": "1-3 drakes - Dps Sartharion between drakes spawning but make sure to slow/stop dps when getting close to 45% as you do not want to hit 35% before you are ready!",
-                                "bulletFive": "3 drakes - Pop all CDs when Shadron joins the fight (75 seconds) as you need ot be able to kill the drake before he becomes immune.",
-                                "bulletSix": "3 drakes - If Vesperon spawns the portal, have a tanky dps and some pumpers go in and nuke the add down.",
-                                "bulletSeven": "Burn Sartharion down as fast as possible, before the tank dies.",
-                                "bulletEight": "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down and have either the OT or a range dps kite the first drake around until Sartharion is dead."
-                            },
-                            "range": {
-                                "bulletOne": "Dps Sartharion and dodge the waves when they spawn.",
-                                "bulletTwo": "Cleave down the adds when they spawn, once the OT has picked them up.",
-                                "bulletThree": "1-3 drakes - Dps the boss between pull and Tenebron spawning however be careful not to do too much.",
-                                "bulletFour": "1-3 drakes - Save bloodlust for Vesperon (or the last drake if not killing Vesp)  in an effort to burn the drake before the shield spawns.",
-                                "bulletFive": "1-3 drakes - Dps Sartharion between drakes spawning but make sure to slow/stop dps when getting close to 45% as you do not want to hit 35% before you are ready!",
-                                "bulletSix": "3 drakes - Pop all CDs when Shadron joins the fight (75 seconds) as you need to be able to kill the drake before he becomes immune.",
-                                "bulletSeven": "3 drakes - If Vesperon spawns the portal, have a tanky dps, some pumpers and a healer go in and nuke the add down.",
-                                "bulletEight": "Burn Sartharion down as fast as possible, before the tank dies.",
-                                "bulletNine": "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down and have either the OT or a range dps kite the first drake around until Sartharion is dead."
-                            }
+                            "melee": [
+                                "Dps Sartharion and dodge the waves when they spawn.",
+                                "Cleave down the adds when they spawn, once the OT has picked them up.",
+                                "1-3 drakes - Dps the boss between pull and Tenebron spawning however be careful not to do too much.",
+                                "1-3 drakes - Dps Sartharion between drakes spawning but make sure to slow/stop dps when getting close to 45% as you do not want to hit 35% before you are ready!",
+                                "3 drakes - Pop all CDs when Shadron joins the fight (75 seconds) as you need ot be able to kill the drake before he becomes immune.",
+                                "3 drakes - If Vesperon spawns the portal, have a tanky dps and some pumpers go in and nuke the add down.",
+                                "Burn Sartharion down as fast as possible, before the tank dies.",
+                                "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down and have either the OT or a range dps kite the first drake around until Sartharion is dead."
+                            ],
+                            "range": [
+                                "Dps Sartharion and dodge the waves when they spawn.",
+                                "Cleave down the adds when they spawn, once the OT has picked them up.",
+                                "1-3 drakes - Dps the boss between pull and Tenebron spawning however be careful not to do too much.",
+                                "1-3 drakes - Save bloodlust for Vesperon (or the last drake if not killing Vesp)  in an effort to burn the drake before the shield spawns.",
+                                "1-3 drakes - Dps Sartharion between drakes spawning but make sure to slow/stop dps when getting close to 45% as you do not want to hit 35% before you are ready!",
+                                "3 drakes - Pop all CDs when Shadron joins the fight (75 seconds) as you need to be able to kill the drake before he becomes immune.",
+                                "3 drakes - If Vesperon spawns the portal, have a tanky dps, some pumpers and a healer go in and nuke the add down.",
+                                "Burn Sartharion down as fast as possible, before the tank dies.",
+                                "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down and have either the OT or a range dps kite the first drake around until Sartharion is dead."
+                            ]
                         },
-                        "healers": {
-                            "bulletOne": "Most of the damage in this fight (0 drakes) will be on the tanks with a small amount of raid damage as long as the raid are able to dodge the lava waves.",
-                            "bulletTwo": "Position yourself with the range and dodge the lava waves when they spawn.",
-                            "bulletThree": "Assign the healing team to focus on different tanks / raid heal to cover all bases.",
-                            "bulletFour": "1-3 drakes - Depending on gear, having 1-2 healers focus the OT here will be necessary.",
-                            "bulletFive": "3 drakes - Managing your mana here is important, and learning when to pop each of your CDs is something you will need to figure out to deal with heavy damage.",
-                            "bulletSix": "3 drakes - If Vesperon spawns the portal; have a tanky dps, some pumpers and a healer go in and nuke the add down.",
-                            "bulletSeven": "3 drakes - When all 3 drakes are dead, the MT will be taking huge damage and you will need to be ready to pump!",
-                            "bulletEight": "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down. If doing this tactic, the healer team will need to coordinate on who to heal and be ready to go hard once the enrage hits."
-                        },
-                        "tanks": {
-                            "bulletOne": "The boss should be pulled to the X closest to the entrance side of the platform (shown in boss image), giving the tank time to avoid lava waves.",
-                            "bulletTwo": "0 drake - MT tanks the boss at the above mark and moves to avoid lava waves, while the OT picks up the adds when they spawn.",
-                            "bulletThree": "1-3 drake - OT will pick up each drake (joins the fight at 30/75/125 seconds respectively) as they join the fight, tanking them in the middle edge of the platform until killed.",
-                            "bulletFour": "1-3 drake - Avoid having any drakes alive by the time Sartharion gets to 35% health as itll enrage.",
-                            "bulletFive": "3 drakes - Once all the drakes are dead, Sartharion will be hitting like a truck (75% increased attack speed and physical damage)! Use any remaining CDs and healing items.",
-                            "bulletSix": "Zerg - Once your raid hits a certain amount of gear you can push through the fight fast enough without killing any drakes."
-                        }
+                        "healers": [
+                            "Most of the damage in this fight (0 drakes) will be on the tanks with a small amount of raid damage as long as the raid are able to dodge the lava waves.",
+                            "Position yourself with the range and dodge the lava waves when they spawn.",
+                            "Assign the healing team to focus on different tanks / raid heal to cover all bases.",
+                            "1-3 drakes - Depending on gear, having 1-2 healers focus the OT here will be necessary.",
+                            "3 drakes - Managing your mana here is important, and learning when to pop each of your CDs is something you will need to figure out to deal with heavy damage.",
+                            "3 drakes - If Vesperon spawns the portal; have a tanky dps, some pumpers and a healer go in and nuke the add down.",
+                            "3 drakes - When all 3 drakes are dead, the MT will be taking huge damage and you will need to be ready to pump!",
+                            "Zerg - Once the raid hits a certain amount of gear, you are able to just burn the boss down. If doing this tactic, the healer team will need to coordinate on who to heal and be ready to go hard once the enrage hits."
+                        ],
+                        "tanks": [
+                            "The boss should be pulled to the X closest to the entrance side of the platform (shown in boss image), giving the tank time to avoid lava waves.",
+                            "0 drake - MT tanks the boss at the above mark and moves to avoid lava waves, while the OT picks up the adds when they spawn.",
+                            "1-3 drake - OT will pick up each drake (joins the fight at 30/75/125 seconds respectively) as they join the fight, tanking them in the middle edge of the platform until killed.",
+                            "1-3 drake - Avoid having any drakes alive by the time Sartharion gets to 35% health as itll enrage.",
+                            "3 drakes - Once all the drakes are dead, Sartharion will be hitting like a truck (75% increased attack speed and physical damage)! Use any remaining CDs and healing items.",
+                            "Zerg - Once your raid hits a certain amount of gear you can push through the fight fast enough without killing any drakes."
+                        ]
                     }
                 }
             }
@@ -540,31 +540,31 @@ const data = {
                 "tactics": {
                     "normal": {
                         "dps": {
-                            "melee": {
-                                "bulletOne": "",
-                                "bulletTwo": "",
-                                "bulletThree": ""
-                            },
-                            "range": {
-                                "bulletOne": "",
-                                "bulletTwo": "",
-                                "bulletThree": ""
-                            }
+                            "melee": [
+                                "",
+                                "",
+                                ""
+                            ],
+                            "range": [
+                                "",
+                                "",
+                                ""
+                            ]
                         },
-                        "healers": {
-                            "bulletOne": "",
-                            "bulletTwo": "",
-                            "bulletThree": "",
-                            "bulletFour": ""
-                        },
-                        "tanks": {
-                            "bulletOne": "",
-                            "bulletTwo": "",
-                            "bulletThree": "",
-                            "bulletFour": "",
-                            "bulletFive": "",
-                            "bulletSix": ""
-                        }
+                        "healers": [
+                            "",
+                            "",
+                            "",
+                            ""
+                        ],
+                        "tanks": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
                     }
                 }
             }
@@ -576,32 +576,32 @@ const data = {
                 "tactics": {
                     "normal": {
                         "dps": {
-                            "melee": {
-                                "bulletOne": "Spread around the boss, ideally more than 10 yards apart to avoid crushing leaps targeting other players.",
-                                "bulletTwo": "If this isn't possible due to raid composition, try to be at least 5 yards away so people aren't taking cleave damage from rock shards.",
-                                "bulletThree": "If rock shards target you, stay still and allow others to move out.",
-                                "bulletFour": "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
-                            },
-                            "range": {
-                                "bulletOne": "Spread around the room, ideally more than 10 yards apart to avoid crushing leaps targeting other players.",
-                                "bulletTwo": "If this isn't possible due to raid composition, try to be at least 5 yards away so people aren't taking cleave damage from rock shards.",
-                                "bulletThree": "If rock shards target you, stay still and allow others to move out.",
-                                "bulletFour": "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
-                            }
+                            "melee": [
+                                "Spread around the boss, ideally more than 10 yards apart to avoid crushing leaps targeting other players.",
+                                "If this isn't possible due to raid composition, try to be at least 5 yards away so people aren't taking cleave damage from rock shards.",
+                                "If rock shards target you, stay still and allow others to move out.",
+                                "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
+                            ],
+                            "range": [
+                                "Spread around the room, ideally more than 10 yards apart to avoid crushing leaps targeting other players.",
+                                "If this isn't possible due to raid composition, try to be at least 5 yards away so people aren't taking cleave damage from rock shards.",
+                                "If rock shards target you, stay still and allow others to move out.",
+                                "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
+                            ]
                         },
-                        "healers": {
-                            "bulletOne": "Primary damage will be impale damage on the tank and normal physical attacks from archavon, with the crushing leap adding spike damage to the raid.",
-                            "bulletTwo": "If rock shards target, stay still and allow others to move out.",
-                            "bulletThree": "Rock shard target will require focus healing.",
-                            "bulletFour": "Healers want to position themselves around the boss ideally more than 10 yards apart from others, standing close enough to the boss to not lose melee reach when the boss leaps away.",
-                            "bulletFive": "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
-                        },
-                        "tanks": {
-                            "bulletOne": "Pull the boss to the centre of the room and attain as high of a threat lead as possible.",
-                            "bulletTwo": "MT will tank the boss until impaled, and the OT will taunt the boss and maintain threat, switching on each impale.",
-                            "bulletThree": "If one tank is significantly better geared than the other, you can have the lesser geared tank taunt briefly before the stomp happens to take the impale and then switch back.",
-                            "bulletFour": "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
-                        }
+                        "healers": [
+                            "Primary damage will be impale damage on the tank and normal physical attacks from archavon, with the crushing leap adding spike damage to the raid.",
+                            "If rock shards target, stay still and allow others to move out.",
+                            "Rock shard target will require focus healing.",
+                            "Healers want to position themselves around the boss ideally more than 10 yards apart from others, standing close enough to the boss to not lose melee reach when the boss leaps away.",
+                            "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
+                        ],
+                        "tanks": [
+                            "Pull the boss to the centre of the room and attain as high of a threat lead as possible.",
+                            "MT will tank the boss until impaled, and the OT will taunt the boss and maintain threat, switching on each impale.",
+                            "If one tank is significantly better geared than the other, you can have the lesser geared tank taunt briefly before the stomp happens to take the impale and then switch back.",
+                            "Quickly move out of any choking clouds, they will spawn at the location the boss leaps to."
+                        ]
                     }
                 }
             }
