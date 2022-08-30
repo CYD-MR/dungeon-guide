@@ -535,35 +535,47 @@ const data = {
         },
         "EoE": {
             "Malygos": {
-                "intro": "",
-                "overview": "",
+                "intro": "Eye of Eternity is a raid found in Colderra - Borean Tundra, it is a one boss fight with no trash.",
+                "overview": "Firstly the boss is a typical dragon and does a breath mechanic dealing damage and after 5 seconds all targets hit explode dealing damage again to all nearby targets. Secondly the boss spawns sparks that will appear around the room, these will slowly move towards the boss, if they reach the boss they will buff his damage by 50%, this is a stacking effect. If players kill the sparks they will drop a pulsing AoE circle that increases the damage of all players inside it by 50% for the duration. Finally the boss will periodically fly into the air and summon a vortex to lift players in the air, dealing large amounts of arcane damage and fall damage at the end. Only instant cast spells can be used during this without CDs being used.Phase 2 starts at 50%, Malygos will fly into the air for about 10 seconds, during this time ranged players can deal maximum damage before the boss flies away. Nexus Lords and Scions of Eternity will spawn on discs, once killed they drop their disc and players can mount it, flying up into the air. Malygos will occasionally cast an Arcane Pulse dealing large arcane damage to all players within 30 yards, this can be mitigated by protective bubbles that spawn on the platform. They spawn at full size and periodically decrease. This effect can be out ranged by the players flying on discs if they fly up. Malygos will also hit random players with Arcane Storm, dealing moderate arcane damage.Once all Nexus Lords and Scions of Eternity are dead, Phase 3 will begin. Phase 3 is a mounted combat phase that will last until Malygos dies. Players will be dropped onto dragons that have the following abilities. Flame Spike - Deals moderate damage and applies 1 combo point. Engulf in Flames - Deals fire damage, this effect can stack and lasts for 3 seconds. Revivify - Heals the target for 500 damage every second for 10 seconds, stacks up to 5 times and applies “friendly” combo points on the player it was used on. Life Burst - Instantly heals all players within 60 yards and increases healing done by 50% for a duration based on the “friendly” combo points used. Flame Shield - Summons a shield to protect the caster from damage by 80%, lasts from 2-6 seconds based on combo points used. Blazing Speed - Increases the speed of the dragon by 500% for 8 seconds. Malygos will do two spells during this phase. Static Field, summoned on a random player dealing damage to all players within 30 yards every second. Surge of Power, targets multiple players with a beam of damage dealing damage every second for 5 seconds.",
                 "tactics": {
                     "normal": {
                         "dps": {
                             "melee": [
-                                "",
-                                "",
-                                ""
+                                "Phase 1 - Stay to the side of Malygos.",
+                                "Phase 1 - Maximise using the spark areas to do the most damage possible.",
+                                "Phase 2 - You are the priority targets to get on discs to kill the Scions of Eternity!",
+                                "Phase 2 - During Arcane Pulse melee should fly up to avoid the damage from it, but can still be hit by Arcane Storm.",
+                                "Phase 2 - Melee dps remaining on the floor should kill the Nexus Lords and stay inside the bubbles.",
+                                "Phase 3 - Dps during this phase consists of maintaining the 1/1/2 rotation to stack damage as high as possible, use 1 or 2 combo point Flame Shields to survive the Surge of Powers.",
+                                "Phase 3 - Keep with the group to avoid damage from Static Field."
                             ],
                             "range": [
-                                "",
-                                "",
-                                ""
+                                "Phase 1 - Stack with melee to the side of Malygos, in an effort to stack in the sparks and avoid breaths.",
+                                "Phase 1 - You will likely have to control sparks as well to stop them getting to Malygos.",
+                                "Phase 2 - You should not ever really need to be dealing with the discs as you can hit the Scions of Eternity from the floor.",
+                                "Phase 2 - Stack in the bubbles to mitigate damage.",
+                                "Phase 3 - Dps during this phase consists of maintaining the 1/1/2 rotation to stack damage as high as possible, use 1 or 2 combo point Flame Shields to survive the Surge of Powers.",
+                                "Phase 3 - Keep with the group to avoid damage from Static Field."
                             ]
                         },
                         "healers": [
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Phase 1 - During this phase there is minimal damage on anyone aside from the MT.",
+                            "Phase 1 - Sparks should be managed to not hit the boss but if the boss gets a spark, the damage can jump quickly.",
+                            "Phase 1 - During vortex is the only healing intense part of this phase - make sure to use CDs / Healthstones, Aura Mastery with concentration aura is a particularly strong CD as people can still cast whilst it's active.",
+                            "Phase 2 - Healing here is quite intense but you can safely use the rest of your mana / CDs to survive this phase, as you will be on dragons after this.",
+                            "Phase 2 - Damage will start high but slowly get lower as adds begin to die, primarily it will just be Arcane Pulses.",
+                            "Phase 3 - Healers here will not worry about doing damage during this phase, Using Revivify and Life Bursts to maintain health of the raid.",
+                            "Phase 3 - This will be done using a 3/3/3/3/3/4 rotation on a single target and using a 3/3/5 rotation if targeted by Surge of Power.",
+                            "Phase 3 - Keep with the group to avoid damage from Static Field."
                         ],
                         "tanks": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Phase 1 - MT tanks the boss in the centre of the platform, making sure no one else is able to be hit by the breath.",
+                            "Phase 1 - Try to keep Malygos close enough to the spark areas to allow dps to take advantage of the damage buff.",
+                            "Phase 2 - Nexus Lords need to be tanked, which occasionally Haste and can do moderate damage.",
+                            "Phase 2 - Stay in the bubbles and proceed with the fight in the same way as the raid group.",
+                            "Phase 3 - Typically tanks will assume the role of DPS during this, using a 1/1/2 to maintain stacks and deal the most damage.",
+                            "Phase 3 - Use a 1 or 2 combo point Flame Shield to reduce the damage taken from Surge of Powers.",
+                            "Phase 3 - Keep with the group to avoid damage from Static Field."
                         ]
                     }
                 }
